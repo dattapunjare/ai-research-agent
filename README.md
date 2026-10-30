@@ -1,8 +1,8 @@
-# 🤖 AI Research Team
+# AI Research Team
 
 An AI-powered research assistant built with **Python, LangGraph, Google Gemini, and Tavily**. It automates the research process by generating research questions, searching the web, reviewing findings, and producing a structured Markdown report with source links.
 
-## ✨ Features
+## Features
 
 - **Research Planning:** Generates four focused questions based on the user's topic.
 - **Web Research:** Uses Tavily to collect relevant web search results.
@@ -12,7 +12,7 @@ An AI-powered research assistant built with **Python, LangGraph, Google Gemini, 
 - **Source References:** Includes source URLs to help readers verify research claims.
 - **Report Export:** Saves the generated report as a Markdown file in the `reports/` directory.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python** — Core programming language
 - **LangGraph** — Research workflow orchestration
@@ -21,7 +21,7 @@ An AI-powered research assistant built with **Python, LangGraph, Google Gemini, 
 - **uv** — Python project and dependency management
 - **python-dotenv** — Environment variable management
 
-## 🔄 How It Works
+## How It Works
 
 1. **Planner:** Creates four research questions from the given topic.
 2. **Researcher:** Searches the web for each question.
@@ -30,7 +30,7 @@ An AI-powered research assistant built with **Python, LangGraph, Google Gemini, 
 5. **Writer:** Generates a structured research report in Markdown.
 6. **Export:** Saves the final report to the `reports/` directory.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ai-research-agent/
@@ -58,7 +58,7 @@ ai-research-agent/
 └── uv.lock
 ```
 
-## ⚙️ Requirements
+## Requirements
 
 - Python version compatible with `.python-version`
 - [uv](https://docs.astral.sh/uv/)
@@ -66,7 +66,7 @@ ai-research-agent/
 - Tavily API key
 - Internet connection
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
 ### 1. Clone the repository
 
@@ -116,7 +116,7 @@ AI agents in healthcare
 
 The application will start the research workflow and generate a report.
 
-## 📄 Output
+## Output
 
 Generated reports are saved in the `reports/` directory as Markdown files.
 
@@ -129,7 +129,7 @@ reports/
 
 Open the `.md` file in VS Code to read the full report. You can also use **Ctrl + Shift + V** to preview its Markdown formatting.
 
-## 🔐 Environment Variables
+## Environment Variables
 
 | Variable | Purpose |
 |---|---|
@@ -138,14 +138,14 @@ Open the `.md` file in VS Code to read the full report. You can also use **Ctrl 
 | `MODEL` | Specifies the Gemini model |
 | `MAX_REVIEWS` | Configures the review limit |
 
-## ⚠️ Limitations
+## Limitations
 
 - Research quality depends on the search results and AI-generated analysis.
 - Source links should be opened and checked before relying on claims.
 - The workflow does not guarantee that every claim is accurate.
 - API access and usage may be subject to provider limits and costs.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Parallel research across multiple questions
 - Improved report formatting with a clickable table of contents
